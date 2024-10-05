@@ -9,26 +9,7 @@ end
 figure
 plot(log(m),log(Err_rate))
 
-% lambda = 1;  % Rate parameter for exponential distribution
-% N = 1000;    % Number of random samples
-% 
-% % Generate exponential random numbers
-% random_numbers = exprnd(1/lambda, N, 1);
-% 
-% % Scale the numbers to fit between 0 and 100
-% m = random_numbers(random_numbers <= 100);
 
-% m = [0.1,1,10];
-% t = 0:0.1:10;
-% 
-% 
-% [fx,fy] = Temp_evo(m(2));
-% figure
-% plot(t,fy)
-% xlabel('time')
-% ylabel('product concentration')
-% hold on
-% plot(t,fy)
 
 
 
